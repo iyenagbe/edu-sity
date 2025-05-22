@@ -7,14 +7,14 @@ import './Navbar.css'
 export const Navbar = () => {
   return (
     <nav className='container'>
-        <img src='{image/Logo}' alt="" className='logo'/>
+        <img src='{images/Logo}' alt="" className='logo'/>
         <ul>
             <li>Home</li>
             <li>About</li>
-            <li>Canpus</li>
+            <li>Campus</li>
             <li>Programs</li>
             <li>Testimonials</li>
-            <li><button className='btn'>Contact Us</button></li>
+            <li><button className="btn">Contact Us</button></li>
         </ul>
     </nav>
   )
