@@ -1,7 +1,6 @@
 import React from "react";
 import './About.css';
-import about_img from '../../assets/about.jpg';
-import play_icon from '../../assets/play-icon.png';
+
 
 
 
@@ -9,8 +8,8 @@ const About = () => {
     return(
         <div className="about">
             <div className="about-left">
-                <img src="about-img" alt="" className="about-img" />
-                <img src="play_icon" alt="" className="play_icon" />
+                <img src="image/about.png" alt="" className="about-img" />
+                <img src="image/play-icon.png" alt="" className="play-icon" />
             </div>
 
             <div className="about-right">
@@ -20,16 +19,13 @@ const About = () => {
                     <br />
                     Where Knowledge Meets Innovation
                 </h2>
-            </div>
 
-
-
-            {/* <h1>About Us</h1>
-            <p>We are a leading institution dedicated to providing 
+                <p>We are a leading institution dedicated to providing 
                 quality education and fostering innovation.</p>
 
             <p>Our mission is to empower students with the knowledge 
-                and skills they need to succeed in their careers.</p> */}
+                and skills they need to succeed in their careers.</p> 
+            </div>
         </div>
     )
 }

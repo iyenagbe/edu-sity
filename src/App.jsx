@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Programs from './components/programs/programs'
 import Title from './components/Title/Title'
+import About from './components/About/About'
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Title subTitle='Welcome to Our Campus' title='Explore our 
       programs and facilities' />
       <Programs />
+      <About />
       </div>
       
       
