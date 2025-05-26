@@ -15,8 +15,8 @@ const About = () => {
             <div className="about-right">
                 <h3>ABOUT UNIVERSITY</h3>
                 <h2>
-                    Welcome to Our University
-                    <br />
+                    Welcome to Iyenagbe University of Science and Technology
+                    <br /> <br />
                     Where Knowledge Meets Innovation
                 </h2>
 
