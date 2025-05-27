@@ -1,14 +1,32 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Testimonials.css'
 
 const Testimonials = () => {
+
+const slider = useRef();
+let tx = 0;
+
+const slideForward = () => {
+  if (tx > -50){
+    tx -= 25;
+  }
+    slider.current.style.transform = `translateX(${tx}%)`;
+}
+
+const slidebackward = () => {
+  if (tx < 0){
+    tx += 25; 
+  }
+    slider.current.style.transform = `translateX(${tx}%)`;
+}
+
   return (
     <div className='testimonials'>
-        <img src="image/next-icon.png" alt=""  className='next-btn'/>
-        <img src="image/back-icon.png" alt=""  className='back-btn'/>
+        <img src="image/next-icon.png" alt=""  className='next-btn' onClick={slideForward}/>
+        <img src="image/back-icon.png" alt=""  className='back-btn' onClick={slidebackward}/>
 
         <div className="slider">
-          <ul>
+          <ul ref ={slider}>
             <li>
               <div className="slide">
                 <div className="user-info">
@@ -19,13 +37,8 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <p>
-                  Studying sociology at Iyenagbe University of Science and Technology, has completely changed the way I see the world. 
-                  The program doesn’t just teach theories—it challenges you to think critically about real social 
-                  issues like inequality, identity, and power structures. The faculty are incredibly supportive 
-                  and bring real-world experience into the classroom, which makes learning deeply engaging.
-                   The institute also offers great resources, from research opportunities to community outreach programs,
-                    helping me grow both academically and personally. 
-                  I feel truly prepared to make a difference. </p>
+                  Studying sociology at Iyenagbe University of Science and Technology, has  opened my eyes to how society really works. 
+                  It’s made me more aware, thoughtful, and ready to drive social change.. </p>
               </div>
             </li>
             <li>
@@ -38,12 +51,9 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <p>
-                  My experience studying Computer Science at Iyenagbe University of Science and Technology, has been nothing short
-                  of transformative. The curriculum is both rigorous and up-to-date with the latest in software development, AI,
-                  and cybersecurity. The hands-on projects, hackathons, and internship support have helped me build real-world skills 
-                  and a strong portfolio. The professors are knowledgeable, approachable, and always encouraging innovation. 
-                  Thanks to the institute’s strong industry connections and cutting-edge labs, 
-                  I feel confident and ready to take on a career in software engineering. </p>
+                  Studying Computer Science at Iyenagbe University of Science and Technology 
+                  gave me real-world coding 
+                  skills and the confidence to build a tech career. </p>
               </div>
             </li>
             <li>
@@ -56,12 +66,8 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <p>
-                  Studying Human Resource Management at Iyenagbe University of Science and Technology, has been an incredibly rewarding journey.
-                  The program combines theory with practical application, helping me understand the complexities of
-                  organizational behavior, talent development, and labor relations. The faculty are industry professionals 
-                  who bring real-life HR scenarios into the classroom, making learning both engaging and relevant.
-                  The institute also provides excellent career support, including workshops, internships, and networking opportunities. 
-                  I now feel confident stepping into the professional world as a future HR leader. </p>
+                  At Iyenagbe University of Science and Technology, I gained practical HR 
+                  knowledge and leadership skills that prepared me for the workplace. </p>
               </div>
             </li>
             <li>
@@ -74,11 +80,8 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <p>
-                  Studying Art and Culture at Iyenagbe University of Science and Technology, has opened my eyes to the richness of 
-                  human expression across time and place. The program blends history, creativity, and critical theory in a way 
-                  that deepens my appreciation for diverse cultures and artistic forms. The instructors are passionate and supportive, 
-                  always encouraging us to explore our own artistic voices while understanding global cultural dynamics. With access to exhibitions, workshops, 
-                  and vibrant cultural events, the institute has truly become a space where I’ve grown both intellectually and creatively.
+                  Iyenagbe University of Science and Technology helped me explore creativity and understand diverse 
+                  cultures through art in a truly inspiring environment.
                    </p>
               </div>
             </li>
