@@ -1,4 +1,4 @@
-.testimonials.container {
+.testimonials {
   margin: 80px auto;
   padding: 0 80px;
   position: relative;
@@ -13,4 +13,42 @@
     background: #212EA0;
     border-radius: 50%;
     cursor: pointer;
+}
+
+/* .next-btn {
+  right: 0;
+   position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    background: #212EA0;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+.back-btn {
+    left: 0;
+    right: auto;
+    
+    /* position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    background: #212EA0;
+    border-radius: 50%;
+    cursor: pointer; */
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+   
 }

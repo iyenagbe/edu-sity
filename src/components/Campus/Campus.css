@@ -9,6 +9,7 @@
     justify-content: space-between;
     gap: 15px;
     margin-bottom: 40px;
+    padding-right: 2px;
 }
 .gallery img {
     width: 25%;
