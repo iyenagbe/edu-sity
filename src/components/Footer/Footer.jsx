@@ -5,6 +5,10 @@ const Footer = () => {
   return (
     <div className="footer">
         <p>&copy; 2025 Iyenagbe University of Science and Technology. All rights reserved.</p>
+        <ul>
+            <li>Terms of Service</li>
+            <li>Privacy policy</li>
+        </ul>
       
     </div>
   )

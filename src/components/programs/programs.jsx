@@ -4,7 +4,7 @@ import './programs.css'
 export const Programs = () => {
   return (
     <div className='programs'>
-        <div className="program">
+        <div className="programs">
           <img src="image/program-1.png" alt="" />
           <div className="caption">
               <img src="image/program_icon_1" alt="" />
@@ -12,7 +12,7 @@ export const Programs = () => {
           </div>
         </div> 
 
-        <div className="program">
+        <div className="programs">
         <img src="image/program-2.png" alt="" />
         <div className="caption">
             <img src="image/program_icon_2" alt="" />
@@ -20,7 +20,7 @@ export const Programs = () => {
         </div>
         </div>
 
-        <div className="program">
+        <div className="programs">
         <img src="image/program-3.png" alt="" />
         <div className="caption">
             <img src="image/program_icon_3" alt="" />
