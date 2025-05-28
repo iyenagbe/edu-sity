@@ -30,8 +30,9 @@ export const App = () => {
 
       <Testimonials />
 
-      <Contact />
+      
       <Title subTitle='Contact Us' title='Get in Touch' />
+      <Contact />
       
       </div>
     </div>
