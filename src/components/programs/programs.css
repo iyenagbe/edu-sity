@@ -41,3 +41,13 @@
     opacity: 1;
     padding-top: 0;
 }
+/* media querey */
+@media (max-width: 650px){
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        margin: 20px;
+        flex-basis: 100%;
+    }
+}
