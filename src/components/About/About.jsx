@@ -5,12 +5,13 @@ import './About.css';
 
 
 
-const About = () => {
+const About = ({setPlayerState}) => {
     return(
         <div className="about">
             <div className="about-left">
                 <img src="image/about.png" alt="" className="about-img" />
-                <img src="image/play-icon.png" alt="" className="play-icon" />
+                <img src="image/play-icon.png" alt="" className="play-icon" onClick={()=>
+                    {setPlayerState(true)}}/>
             </div>
 
             <div className="about-right">

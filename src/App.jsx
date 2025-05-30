@@ -11,6 +11,11 @@ import Footer from './components/Footer/Footer'
 
 
 export const App = () => {
+
+  const [playerState, setPlayerState] = useState(false);
+
+
+
   return (
     <div>
       <Navbar />
@@ -23,7 +28,7 @@ export const App = () => {
       programs and facilities' />
       <Programs />
 
-      <About />
+      <About setPlayerState = {setPlayerState}/>
       <Title subTitle='Gallery' title='Campus Photos' />
 
       <Campus />
@@ -38,7 +43,9 @@ export const App = () => {
       <Footer />
       
       </div>
-    </div>
+
+      <VideoPlayer playerState={playerState} setPlayerState={setPlayerState} />
+     </div>
   )
 }
 
