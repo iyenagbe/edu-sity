@@ -26,6 +26,21 @@
     line-height: 1.5;
 }
 
+/* .hero.btn{
+    display: inline-flex;            
+    align-items: center;            
+    justify-content: center;        
+    gap: 10px;                       
+    background-color: #212EA0;       
+    color: white;
+    padding: 14px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+} */
+
 /* media query  */
 
 @media (max-width: 850px) {
