@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import heroImage from '../../assets/image/hero.png'; // Adjust if needed
+import heroImage from '../../assets/hero.png'; // Adjust if needed
 
 
 
