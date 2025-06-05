@@ -39,7 +39,7 @@ nav ul li{
 }
 
 /* ----- media query navbar----- */
-@media (max-width: 500px){
+@media (max-width: 1000px){
     .logo{
         width: 140px;
     }
@@ -47,7 +47,7 @@ nav ul li{
         margin: 10px 15px;
     }
 }
-@media (max-width: 450px){
+@media (max-width: 750px){
     nav{
         padding: 15px 0;
     }
@@ -66,9 +66,9 @@ nav ul li{
         top: 0;
         right: 0px;
         bottom: 0;
-        width: 150px;
-        /* background: #212EA0; */
-        background:  transparent;
+        width: 200px;
+        background: #212EA0;
+        /* background:  transparent; */
         color: rgb(63, 14, 14);
         padding-top: 70px;
         transition: right 0.5s;
