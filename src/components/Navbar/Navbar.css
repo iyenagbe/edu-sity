@@ -73,6 +73,7 @@ nav ul li{
         padding-top: 70px;
         transition: right 0.5s;
         z-index: -1;
+        font-size: 500;
     }
 
      nav ul.show {
