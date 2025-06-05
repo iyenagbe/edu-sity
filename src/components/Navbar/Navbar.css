@@ -68,7 +68,7 @@ nav ul li{
         bottom: 0;
         width: 200px;
         /* background: #212EA0; */
-        color: snow;
+        color: #333333;
         padding-top: 70px;
         transition: right 0.5s,;
         z-index: -1;
