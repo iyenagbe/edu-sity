@@ -64,11 +64,11 @@ nav ul li{
 
         position: fixed;
         top: 0;
-        right: 0px;
+        right: -200px;
         bottom: 0;
         width: 200px;
         /* background: #212EA0; */
-        background:  palegreen;
+        background:  transparent;
         /* color: black; */
         padding-top: 70px;
         transition: right 0.5s;
@@ -77,6 +77,8 @@ nav ul li{
 
      nav ul.show {
         right: 0;
+        background: #212EA0;
+        z-index: 99;
     }
     nav ul li{
         display: block;
