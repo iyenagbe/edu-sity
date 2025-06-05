@@ -64,14 +64,14 @@ nav ul li{
 
         position: fixed;
         top: 0;
-        right: 0px;
+        right: -200px;
         bottom: 0;
         width: 200px;
         background: #212EA0;
         /* background:  transparent; */
         color: rgb(63, 14, 14);
         padding-top: 70px;
-        transition: right 0.5s;
+        transition: right 0.5s, background 0.5s;
         z-index: -1;
         font-size: 500;
     }
