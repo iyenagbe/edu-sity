@@ -66,10 +66,10 @@ nav ul li{
         top: 0;
         right: 0px;
         bottom: 0;
-        width: 200px;
+        width: 150px;
         /* background: #212EA0; */
         background:  transparent;
-        /* color: black; */
+        color: rgb(63, 14, 14);
         padding-top: 70px;
         transition: right 0.5s;
         z-index: -1;
