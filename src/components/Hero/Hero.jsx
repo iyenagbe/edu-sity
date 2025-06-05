@@ -1,16 +1,13 @@
 import React from 'react'
 import './Hero.css'
-import heroImage from '../../assets/hero.png'; // Adjust if needed
+// import heroImage from '../../assets/hero.png'; // Adjust if needed
 
 
 
 
 export const Hero = () => {
   return (
-    <div className='hero container'
-        style={{ backgroundImage: `url(${heroImage})` }}
-    >
-
+    <div className='hero container'>
        <div className="hero-text">
         <h1>We Offer Quality Learning Experiece </h1>
         <p>
@@ -20,8 +17,9 @@ export const Hero = () => {
         </p>
         <button className='btn'>Explore more <img src="{dark_arrow}" alt="" /></button>
        </div>
-
+      
     </div>
+    
   )
 }
 export default Hero
