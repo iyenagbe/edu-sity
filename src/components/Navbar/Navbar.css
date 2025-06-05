@@ -68,6 +68,7 @@ nav ul li{
         bottom: 0;
         width: 200px;
         /* background: #212EA0; */
+        background:  palegreen;
         /* color: black; */
         padding-top: 70px;
         transition: right 0.5s;
